@@ -1,16 +1,129 @@
-# React + Vite
+# 🎬 BookMyShow Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-featured **BookMyShow-inspired movie ticket booking web application** built using **React.js** and modern frontend technologies.
+This project simulates a real movie booking experience including browsing movies, searching content, selecting theatres, choosing seats, and confirming bookings.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:**
+https://bookmyshowclone-iota.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Browse **Now Playing Movies**
+* **Smart Search** for Movies, Events, Plays, Sports and Activities
+* View **Movie Details**
+* **Theatre Selection**
+* **Show Time Selection**
+* **Seat Selection System**
+* **Booking Confirmation Page**
+* **Authentication Modal (Login Simulation)**
+* Responsive UI similar to **BookMyShow**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 API Integration
+
+This project uses the **TMDB (The Movie Database) API** to fetch real-time movie data including:
+
+* Movie titles
+* Posters
+* Ratings
+* Movie descriptions
+* Release dates
+
+API used:
+https://api.themoviedb.org
+
+---
+
+## 🛠 Tech Stack
+
+Frontend:
+
+* React.js
+* JavaScript (ES6+)
+* Tailwind CSS
+* Lucide Icons
+
+API:
+
+* TMDB API
+
+Deployment:
+
+* Vercel
+
+Version Control:
+
+* Git & GitHub
+
+---
+
+## 📸 Screenshots
+
+Add screenshots of the application here.
+
+Example sections you can include:
+
+* Home Page
+* Movie Details Page
+* Theatre Selection
+* Seat Selection
+* Booking Confirmation
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/shaz-06/bookmyshow_clone.git
+```
+
+Go to the project directory
+
+```bash
+cd bookmyshow_clone
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm start
+```
+
+---
+
+## 🌐 Deployment
+
+This project is deployed using **Vercel**.
+
+---
+
+## 📌 Future Improvements
+
+* Real payment gateway integration
+* User authentication with backend
+* Real theatre and showtime APIs
+* Booking history
+* Mobile app version
+
+---
+
+## 👨‍💻 Author
+
+**Shashank Shetty**
+
+GitHub:
+https://github.com/shaz-06
+
+LinkedIn:
+https://www.linkedin.com/in/shashank-shetty-070447336/
